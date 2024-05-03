@@ -27,3 +27,24 @@ app.listen(PORT, () => {
     // Printing a message as result of request to port "PORT"
     console.log(`console running on port, ${PORT}`)
 })
+
+
+
+
+
+   <div style={styles.hero}>
+          {/* <div style={styles.left}>
+            <p style={styles.heroLine}>
+              Welcome to my portfolio! Feel free to check out my work and get
+              connected!
+            </p>
+          </div> */}
+          <div style={styles.right}>
+            <div style={styles.heroLine}>
+              <p>
+                Welcome to my portfolio! Feel free to check out my work and get
+                connected!
+              </p>
+            </div>
+          </div>
+        </div>

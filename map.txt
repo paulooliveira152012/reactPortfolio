@@ -1,0 +1,83 @@
+--> Initiating react portfolio for frontend
+	# npx create-react-app portfolio-frontend
+
+--> Create backend folder within initial project folder
+--> CD into this folder and initiate NPM also
+	# cd backend
+	# npm init -y
+
+--> still in the backend folder install express (Express will help you handle HTTP requests easily)
+	# npm install express
+
+--> Set up the server, the entry point for my application 
+	# create app.js
+
+--> initiate server
+	# node server.js
+
+
+## set up routing
+	Install react-router-dom
+	# npm install react-router-dom
+
+
+Create a landing page 
+--> create folder for pages
+
+## Create the landing page using a React functional component with JSX, which allows for dynamic rendering and easy integration of interactive elements for a personalized and engaging user experience.
+
+--> import react (allows us to use reacts library to use components and hooks)
+	# import React from 'react'
+-- > create a landingPage function
+	# function landingPage = () => {
+	  	return (
+			<header>
+				<h1> this is a header </h1>
+			<header />
+		)
+	  }
+	  
+	  export default landingPage()
+
+
+Npm run build
+
+	
+	
+This is my folder structure:
+- backend 
+	--node_modules
+	--package-lock.json
+	--package.json
+	--server.js
+
+- build
+- frontend
+	--pages
+		--AboutPage.js
+		---LandingPage.js
+- node_modules
+- public
+- src
+- .gitignore
+- index.js
+--package-lock.json
+--package.json
+
+
+@ after code is complete, 
+	in the root directory, npm run build
+	in the backend folder, node server.js
+	in the root directory again, nom 
+
+#### All files should be inside the src folder in order for the app to work
+
+
+
+Npm run start
+
+color palette: 
+https://colorhunt.co/palette/22283131363f76abaeeeeeee
+
+images:
+https://stockcake.com/s?q=coding

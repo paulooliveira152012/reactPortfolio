@@ -20,25 +20,25 @@ const Header = () => {
             <ul style={styles.list}>
                 <li>
                     <a href="https://www.linkedin.com/in/paulo-de-lacerda-oliveira-552677b7/" target="_blank" rel="noopener noreferrer" style={styles.a}>
-                    <FontAwesomeIcon icon={faLinkedin} />
+                    <FontAwesomeIcon icon={faLinkedin} color="#EEEEEE"/>
                     </a>
                 </li>
 
                 <li>
                     <a href="tel:+19086308458" style={styles.a}>
-                    <FontAwesomeIcon icon={faPhone} />
+                    <FontAwesomeIcon icon={faPhone} color="#EEEEEE"/>
                     </a>
                 </li>
 
                 <li>
                     <a href="mailto:paulooliveira152012@gmail.com" target="_blank" rel="noopener noreferrer" style={styles.a}>
-                    <FontAwesomeIcon icon={faEnvelope}/>
+                    <FontAwesomeIcon icon={faEnvelope} color="#EEEEEE"/>
                     </a>
                 </li>
 
                 <li>
                     <a href={resume} target="_blank" rel="noopener noreferrer" style={styles.a}>
-                    <FontAwesomeIcon icon={faFile} />
+                    <FontAwesomeIcon icon={faFile} color="#EEEEEE" />
                     </a>
                 </li>            
             </ul>
