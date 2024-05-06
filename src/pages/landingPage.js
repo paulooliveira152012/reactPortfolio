@@ -21,12 +21,12 @@ function LandingPage() {
             </p>
           </div> */}
           <div style={styles.left}>
-            <div style={styles.heroLine}>
-              <p>
-                Welcome to my portfolio! Feel free to check out my work and get
-                connected!
-              </p>
-            </div>
+                <div style={styles.heroLine}>
+                <p style={styles.textLeft}>
+                    Welcome to my portfolio! Feel free to check out my work and get
+                    connected!
+                </p>
+                </div>
           </div>
           {/* right (just for spacing) */}
           <div style={styles.right}></div>

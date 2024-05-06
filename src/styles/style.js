@@ -1,7 +1,22 @@
 import myPicture from "../images/mypicture.jpeg";
+import myPicture1 from "../images/mypicture1.jpeg"
 
+// font create and export font from google
+export const globalStyle = {
+  fontFamily: "'Inconsolata', monospace",
+};
+
+export const textStyle = {
+  fontFamily: "'Inconsolata', monospace",
+  fontSize: "16px", // Example font size
+  color: "#333", // Example color
+};
 
 const styles = {
+  body: {
+    fontFamily: "'Inconsolata', monospace", // Use Inconsolata for the title
+  },
+
   container: {
     padding: "20px",
     margin: "0 auto",
@@ -19,12 +34,12 @@ const styles = {
     padding: "10px 50px",
   },
   title: {
-    fontFamily: 'Montserrat, sans-serif',
-    fontSize: '36px', // Feel free to adjust the size according to your design
-    fontWeight: 'bold', // Montserrat looks particularly good in bold for titles
-    color: '#EEEEEE', // This is a standard color, but customize as needed
-    textAlign: 'center', // Centers the title, if that fits your layout
-    padding: '20px 0' // Gives some spacing around the title
+    fontFamily: "'Inconsolata', monospace", // Use Inconsolata for the title
+    fontSize: "36px", // Feel free to adjust the size according to your design
+    fontWeight: "bold", // Montserrat looks particularly good in bold for titles
+    color: "#EEEEEE", // This is a standard color, but customize as needed
+    textAlign: "center", // Centers the title, if that fits your layout
+    padding: "20px 0", // Gives some spacing around the title
   },
 
   paragraph: {
@@ -47,19 +62,20 @@ const styles = {
     // padding: "20px",
     height: "auto",
     backgroundColor: "red",
+    height: "300px",
   },
 
   projectParagraph: {
     margin: "20px",
     // color: "#EEEEEE",
-    textAlign: "justify"
+    textAlign: "justify",
   },
 
   // header
   list: {
     display: "flex",
     listStyle: "none",
-    float:"right"
+    float: "right",
   },
 
   a: {
@@ -80,21 +96,51 @@ const styles = {
     backgroundImage: `url(${myPicture})`,
     backgroundSize: "cover",
     backgroundPosition: "center -0%",
-    flex: 1,  
+    flex: 1,
   },
 
   left: {
     flex: 1,
     // backgroundColor: "green",
+  },
+
+  imageContainer: {
+    height: "300px",
+    margin: "20px",
+    // backgroundColor: "white",
+  },
+
+  myPicture1: {
+    backgroundImage: `url(${myPicture1})`,
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
+    backgroundPosition: "center",
+    // width: "100%",
+    height: "100%",
+  },
+
+  textContainer: {
+    height: "300px",
+    margin: "20px",
+    // backgroundColor: "white",
+    fontSize: "15px",
+    textAlign: "center",
+    display: "flex",
+    flexDirection: "column",
+    height: "100%",
+    justifyContent: "space-evenly",
+  },
+
+  textLeft: {
     margin: "20px",
     display: "flex",
     alignItems: "center", // This centers the content horizontally in the flex container
     justifyContent: "center", // This centers the content vertically in the flex container
     textAlign: "center",
     color: "#EEEEEE",
-    textShadow: "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000" // Adds an outline
-},
-
+    textShadow:
+      "-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000", // Adds an outline
+  },
 
   right: {
     flex: 1,
@@ -103,25 +149,34 @@ const styles = {
   heroLine: {
     fontSize: "40px",
     textAlign: "left",
-    width: "50%",
+    // width: "50%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    // backgroundColor: "red",
+    height: "100%",
   },
 
   pictureContainer: {
     flex: 1,
-    position: "absolute"
-    
+    position: "absolute",
   },
 
   myPicture: {
     height: "auto",
-    position: "relative"
+    position: "relative",
   },
 
-  writtenContentContainer: {
-    display: "flex"
+  main: {
+    // display: "flex"
   },
 
-//   story session
+  horizontal: {
+    display: "flex",
+    // backgroundColor: "red"
+  },
+
+  //   story session
   writtenContent: {
     textAlign: "justify",
     // margin: "20px 10px",
@@ -130,32 +185,43 @@ const styles = {
     // borderRadius: 20,
     fontSize: 20,
     flex: 1,
-    color: "#222831"
+    color: "#222831",
+    display: "flex",
   },
 
-//   footer
-footer: {
+  //   footer
+  footer: {
     height: "300px",
     backgroundColor: "#222831",
     color: "#EEEEEE",
+    marginTop: "20px",
     display: "flex",
-},
+    flexDirection: "column",
+    justifyContent: "center",
+  },
 
-footerColumn: {
-    flex:1,
-    // backgroundColor: "blue",
-    margin: "10px",
-    textAlign: "center"
-},
+  footerContainer: {    
+    // backgroundColor: "red",
+    margin: "auto"
+  },
 
-footerList: {
-    listStyle: "none"
-},
+  footerSocialContainer: {
+    backgroundColor: "green",
+    width: "auto"
+  },
 
-h2: {
-    marginBottom: "20px"
-}
+  footerSocial: {
+    display: "flex",
+    margin: "auto",
+  },
 
+  footerList: {
+    listStyle: "none",
+  },
+
+  h2: {
+    marginBottom: "20px",
+  },
 };
 
 export default styles;
