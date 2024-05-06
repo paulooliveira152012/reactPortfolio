@@ -19,7 +19,7 @@ const Projects = () => {
           target="_blank"
         >
           <img src={gradsapp} style={styles.projectImg}></img>
-          <p style={styles.projectParagraph}>
+          <div style={styles.projectParagraph}>
             <div>
               <p>
                 <strong>Grads: Connect, Study, and Thrive</strong>
@@ -83,7 +83,7 @@ const Projects = () => {
                 across platforms.
               </p> */}
             </div>
-          </p>
+          </div>
         </a>
       </div>
 
@@ -96,7 +96,7 @@ const Projects = () => {
         >
           <img src={gradsweb} style={styles.projectImg}></img>
 
-          <p style={styles.projectParagraph}>
+          <div style={styles.projectParagraph}>
             <div>
               <p>
                 <strong>
@@ -142,7 +142,7 @@ const Projects = () => {
                       to download and engage with the app.
                     </p> */}
             </div>
-          </p>
+          </div>
         </a>
       </div>
 
@@ -155,7 +155,7 @@ const Projects = () => {
         >
           <img src={launion} style={styles.projectImg}></img>
 
-          <p style={styles.projectParagraph}>
+          <div style={styles.projectParagraph}>
             <div>
               <p>
                 <strong>
@@ -203,7 +203,7 @@ const Projects = () => {
                       to download and engage with the app.
                     </p> */}
             </div>
-          </p>
+          </div>
         </a>
       </div>
 
