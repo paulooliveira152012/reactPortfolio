@@ -46,23 +46,38 @@ const styles = {
     fontSize: "16px",
     color: "#333",
   },
+
   projectsContainer: {
     // make horizontal flow
     display: "flex",
     // make exceeding content on the x axis scrollable
     overflowX: "auto",
-    padding: "50px",
-    backgroundColor: "#222831",
-    color: "white",
+    // padding: "50px",
+    // backgroundColor: "#FEFAF6",
+    // color: "white",
+    height: "100vh",
   },
 
-  project: {
+  projectContainer: {
+    // backgroundColor: "#222831",
+    borderRadius: 10,
+    margin: 20,
+    display: "flex",
+    flexDirection: "column",
+    // justifyContent: "center"
+    paddingTop: "2%",
+    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Adds a subtle shadow for depth
+  },
+
+
+  projectImg: {
     width: "500px",
     margin: "10px 20px",
     // padding: "20px",
     height: "auto",
-    backgroundColor: "red",
+    // backgroundColor: "red",
     height: "300px",
+    borderRadius: 10
   },
 
   projectParagraph: {
@@ -84,9 +99,15 @@ const styles = {
     textDecoration: "none",
   },
 
+  aProjects: {
+    // marginRight: "20px",
+    // color: "white",
+    textDecoration: "none",
+  },
+
   hero: {
     width: "100%",
-    height: "500px",
+    height: "100vh",
     display: "flex",
     // backgroundColor: "red",
     // display: "flex",
@@ -153,7 +174,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    // backgroundColor: "red",
+    backgroundColor: "#222831",
     height: "100%",
   },
 

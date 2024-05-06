@@ -1,3 +1,5 @@
+// currently not in use
+
 import React from "react";
 import styles from "../styles/style";
 import resume from "../docs/resume.pdf";
@@ -83,3 +85,5 @@ const Header = () => {
 };
 
 export default Header;
+
+

@@ -78,6 +78,13 @@ Npm run start
 
 color palette: 
 https://colorhunt.co/palette/22283131363f76abaeeeeeee
+https://colorhunt.co/palette/fefaf6eadbc8dac0a3102c57
 
 images:
 https://stockcake.com/s?q=coding
+
+
+portfolios
+
+https://aditya.medhe.in/
+https://soheilasadeghian.github.io/#undefined
