@@ -18,7 +18,7 @@ const Projects = () => {
           style={styles.aProjects}
           target="_blank"
         >
-          <img src={gradsapp} style={styles.projectImg}></img>
+          <img src={gradsapp} alt="gradsapp" style={styles.projectImg}></img>
           <div style={styles.projectParagraph}>
             <div>
               <p>
@@ -94,7 +94,7 @@ const Projects = () => {
           target="_blank"
           style={styles.aProjects}
         >
-          <img src={gradsweb} style={styles.projectImg}></img>
+          <img src={gradsweb} alt="grads website" style={styles.projectImg}></img>
 
           <div style={styles.projectParagraph}>
             <div>
@@ -153,7 +153,7 @@ const Projects = () => {
           target="_blank"
           style={styles.aProjects}
         >
-          <img src={launion} style={styles.projectImg}></img>
+          <img src={launion} alt="laUnion tire shop" style={styles.projectImg}></img>
 
           <div style={styles.projectParagraph}>
             <div>
