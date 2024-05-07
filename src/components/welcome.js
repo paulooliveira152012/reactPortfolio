@@ -17,7 +17,7 @@ const WelcomeMessage = () => {
   const [showIcons, setShowIcons] = useState(false);
 
   // Define the full message
-  const fullMessage = "elcome to my portfolio! I'm Paulo Oliveira. Feel free to check out my work and get connected!";
+  const fullMessage = "Welcome to my portfolio! I'm Paulo Oliveira. Feel free to check out my work and get connected!";
 
   // Function to simulate typing effect
   useEffect(() => {
