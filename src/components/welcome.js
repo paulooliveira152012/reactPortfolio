@@ -8,7 +8,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import estilo from "../styles/estilo.css"
+// import estilo from "../styles/estilo.css"
 
 const WelcomeMessage = () => {
   // State to control the text being displayed

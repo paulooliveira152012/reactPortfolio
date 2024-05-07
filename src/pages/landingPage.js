@@ -14,7 +14,6 @@ function LandingPage() {
     <div>
       <main>
         {/* <Header /> */}
-
         <div style={styles.blurOverlay} className="blur-overlay">
           <div style={styles.hero} className="hero">
             {/* <div style={styles.left}>

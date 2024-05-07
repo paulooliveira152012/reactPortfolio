@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles/style";
 import Badge from "./badge";
-import estilo from "../styles/estilo.css";
+// import estilo from "../styles/estilo.css";
 
 const Content = () => {
   return (
