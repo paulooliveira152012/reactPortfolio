@@ -1,3 +1,4 @@
+// welcome.js
 import React, { useState, useEffect } from "react";
 import styles from "../styles/style";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -7,6 +8,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import estilo from "../styles/estilo.css"
 
 const WelcomeMessage = () => {
   // State to control the text being displayed
@@ -37,9 +39,9 @@ const WelcomeMessage = () => {
   }, []); // Empty dependency array ensures this runs only once
 
   return (
-    <div style={styles.left}>
-      <div style={styles.heroLine}>
-        <p style={styles.textLeft}>
+    <div style={styles.left} className="left">
+      <div style={styles.heroContainer} className="heroContainer">
+        <p style={styles.textLeft} className="textLeft">
           {displayText}
         </p>
         {/* Social Media Icons */}

@@ -1,11 +1,12 @@
 import React from "react";
 import styles from "../styles/style";
 import Badge from "./badge";
+import estilo from "../styles/estilo.css";
 
 const Content = () => {
   return (
-    <div style={styles.main}>
-      <div style={styles.horizontal}>
+    <div style={styles.main} className="contentMain">
+      <div style={styles.horizontal} className="horizontal">
         <div style={styles.left}>
           <div style={styles.textContainer}>
             <p style={{ lineHeight: 2 }}>
@@ -29,16 +30,22 @@ const Content = () => {
           </div>
         </div>
 
-        <div style={styles.right}>
-          <div style={styles.imageContainer}>
-            <div style={styles.myPicture1}></div>
+        <div style={styles.right} className="right">
+
+          <div style={styles.imageContainerBoth}>
+            <div style={styles.myPicture1} className="myPicture1"></div>
+            <div className="invisibleBadge">
+              <Badge />
+            </div>
           </div>
+
         </div>
+
       </div>
 
-      <div style={styles.horizontal}>
+      <div style={styles.horizontal} className="horizontal">
         <div style={styles.left}>
-          <div style={styles.imageContainer}>
+          <div style={styles.imageContainer} className="imageContainer, badge">
             <Badge />
           </div>
         </div>

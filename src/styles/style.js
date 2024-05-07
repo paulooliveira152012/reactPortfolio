@@ -1,5 +1,6 @@
+// style.js
 import myPicture from "../images/mypicture.jpeg";
-import myPicture1 from "../images/mypicture1.jpeg"
+import myPicture1 from "../images/mypicture1.jpeg";
 
 // font create and export font from google
 export const globalStyle = {
@@ -15,6 +16,7 @@ export const textStyle = {
 const styles = {
   body: {
     fontFamily: "'Inconsolata', monospace", // Use Inconsolata for the title
+    color: "red"
   },
 
   container: {
@@ -125,10 +127,21 @@ const styles = {
     // backgroundColor: "green",
   },
 
+
+
   imageContainer: {
     height: "300px",
     margin: "20px",
     // backgroundColor: "white",
+  },
+
+  imageContainerBoth: {
+    height: "300px",
+    margin: "20px",
+    // backgroundColor: "white",
+    display: "flex",
+    justifyContent: "space-evenly"
+
   },
 
   myPicture1: {
@@ -138,6 +151,9 @@ const styles = {
     backgroundPosition: "center",
     // width: "100%",
     height: "100%",
+    width: "50%",
+    // margin: "auto"
+    marginTop: "20px"
   },
 
   textContainer: {
@@ -167,14 +183,13 @@ const styles = {
     flex: 1,
   },
 
-  heroLine: {
+  heroContainer: {
     fontSize: "40px",
     textAlign: "left",
     // width: "50%",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
-    backgroundColor: "#222831",
     height: "100%",
   },
 
@@ -243,6 +258,7 @@ const styles = {
   h2: {
     marginBottom: "20px",
   },
+  
 };
 
 export default styles;

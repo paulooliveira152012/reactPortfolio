@@ -83,8 +83,10 @@ https://colorhunt.co/palette/fefaf6eadbc8dac0a3102c57
 images:
 https://stockcake.com/s?q=coding
 
-
 portfolios
-
 https://aditya.medhe.in/
 https://soheilasadeghian.github.io/#undefined
+
+width
+iphone 14 (about)
+365px

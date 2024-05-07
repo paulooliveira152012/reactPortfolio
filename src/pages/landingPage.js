@@ -1,3 +1,4 @@
+// landingPage.js
 import React from "react";
 import Projects from "../components/projects";
 import Content from "../components/content";
@@ -10,31 +11,32 @@ import WelcomeMessage from "../components/welcome";
 
 function LandingPage() {
   return (
-    <div style={estilo}>
+    <div>
       <main>
         {/* <Header /> */}
-        <div style={styles.hero}>
-          {/* <div style={styles.left}>
-            <p style={styles.heroLine}>
-              Welcome to my portfolio! Feel free to check out my work and get
-              connected!
-            </p>
-          </div> */}
-          <div style={styles.left}>
-                <div style={styles.heroLine}>
-                {/* <p style={styles.textLeft}>
-                    Welcome to my portfolio! Feel free to check out my work and get
-                    connected!
-                </p> */}
 
-                <WelcomeMessage />
-                </div>
-                
-          </div>
-          {/* right (just for spacing) */}
-          <div style={styles.right}></div>
-
+        <div style={styles.blurOverlay} className="blur-overlay">
+          <div style={styles.hero} className="hero">
+            {/* <div style={styles.left}>
+              <p style={styles.heroLine}>
+                Welcome to my portfolio! Feel free to check out my work and get
+                connected!
+              </p>
+            </div> */}
+            <div style={styles.left}>
+                  <div style={styles.heroContainer} className="heroLine">
+                  {/* <p style={styles.textLeft}>
+                      Welcome to my portfolio! Feel free to check out my work and get
+                      connected!
+                  </p> */}
+                  <WelcomeMessage />
+                  </div>
           
+            </div>
+            {/* right (just for spacing) */}
+              <div style={styles.right}></div>
+          
+          </div>
         </div>
 
         <section>

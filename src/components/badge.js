@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 
+
 const Badge = () => {
   // Inject the script to load the badge
   useEffect(() => {
@@ -18,11 +19,12 @@ const Badge = () => {
     // Example of inline styles
     // backgroundColor: "lightblue",
     // border: "2px solid blue",
-    padding: "10px",
+    // padding: "10px",
     borderRadius: "5px",
     display: "flex",            // Use Flexbox
     justifyContent: "center",   // Center horizontally
     alignItems: "center",       // Center vertically
+    height: "100%",
     // You can also use styles imported from CSS files
   };
 

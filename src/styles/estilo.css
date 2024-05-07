@@ -1,10 +1,102 @@
+/* estilo.js */
 /* Reset styles */
 * {
     margin: 0;
     padding: 0;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif */
   }
 
   body {
     background-color: #EEEEEE;
   }
+
+  .heroContainer {
+    background-color: #222831;
+  }
+
+  .heroLine {
+    height: 200%;
+    font-size: 20;
+  }
+
+  .textLeft {
+    font-size: 20;
+  }
+
+  .right {
+    /* background-color: blue; */
+  }
+
+  .invisibleBadge {
+    display: none;
+  }
+
+  
+
+
+/* Media query for screen sizes below or equal to 700px */
+@media screen and (max-width: 700px) {
+  body {
+    /* background-color: red; Example: A light gray color */
+  }
+/* change hero container */
+  .heroContainer {
+    /* height: 200%; */
+    background-color: rgba(0, 0, 0, 0.609);
+    /* flex-direction: column; */
+    /* padding-top: 130px; */
+    /* opacity: 0.5; */
+    /* position:absolute; */
+    /* display: block; */
+    height: 200%;
+    width: 200%;
+  }
+
+  .heroLine {
+    height: 200%;
+  }
+
+  /* reposition welcome message */
+  .left {
+    /* height: 100%; Expand to full height of the parent */
+    /* margin-top: 60%; */
+    font-size: 10px;
+  }
+
+  .textLeft {
+    font-size: 20px;
+    /* padding: 10%; */
+    
+  }
+
+  a {
+    font-size: 20px;
+  }
+
+  /* content section */
+  .contentMain {
+    /* background-color: red; */
+  }
+
+  .horizontal {
+    flex-direction: column;
+  }
+
+  .imageContainer {
+    /* display: inline-block; */
+    /* background-color: green; */
+    /* float: left; */
+  }
+
+
+  .badge {
+    display: none;
+  }
+
+  .invisibleBadge {
+    display: block;
+    /* background-size: ; */
+  }
+
+
+}
