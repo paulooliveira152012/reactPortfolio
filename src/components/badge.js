@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import styles from "../styles/style";
 
 const Badge = () => {
   // Inject the script to load the badge

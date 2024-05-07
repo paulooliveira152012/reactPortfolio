@@ -1,5 +1,5 @@
 import React from "react";
-import projectImagePlaceholder from "../images/projectPlaceholder.jpeg";
+// import projectImagePlaceholder from "../images/projectPlaceholder.jpeg";
 import styles from "../styles/style";
 // import images
 import gradsapp from "../images/projects screenshot/gradsapp.png";
@@ -17,6 +17,7 @@ const Projects = () => {
           href="https://www.google.com/url?q=https%3A%2F%2Fapps.apple.com%2Fus%2Fapp%2Fgrads-app%2Fid1524440253&sa=D&sntz=1&usg=AOvVaw3H_wLYOKzawFdm1g1bm9Pq"
           style={styles.aProjects}
           target="_blank"
+          rel="noreferrer"
         >
           <img src={gradsapp} alt="gradsapp" style={styles.projectImg}></img>
           <div style={styles.projectParagraph}>
@@ -92,6 +93,7 @@ const Projects = () => {
         <a
           href="https://paulooliveira152012.github.io/grads/"
           target="_blank"
+          rel="noreferrer"
           style={styles.aProjects}
         >
           <img src={gradsweb} alt="grads website" style={styles.projectImg}></img>
@@ -151,6 +153,7 @@ const Projects = () => {
          <a
           href="https://paulooliveira152012.github.io/launiontireinc/"
           target="_blank"
+          rel="noreferrer"
           style={styles.aProjects}
         >
           <img src={launion} alt="laUnion tire shop" style={styles.projectImg}></img>

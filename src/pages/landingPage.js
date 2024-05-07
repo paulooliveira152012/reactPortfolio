@@ -1,12 +1,8 @@
 import React from "react";
-import Header from "../components/header";
 import Projects from "../components/projects";
 import Content from "../components/content";
 import Footer from "../components/footer";
-import estilo from "../styles/estilo.css"; //this is being applied!
 import styles from "../styles/style";
-import backgroundImage from "../images/background.jpeg";
-import myPicture from "../images/mypicture.jpeg";
 import WelcomeMessage from "../components/welcome";
 
 function LandingPage() {

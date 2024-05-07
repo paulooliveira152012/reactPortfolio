@@ -8,7 +8,6 @@ import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { textStyle } from "../styles/style";
 
 const Header = () => {
   return (

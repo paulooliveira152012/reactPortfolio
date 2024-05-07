@@ -74,7 +74,7 @@ const styles = {
     width: "500px",
     margin: "10px 20px",
     // padding: "20px",
-    height: "auto",
+    // height: "auto",
     // backgroundColor: "red",
     height: "300px",
     borderRadius: 10
@@ -141,7 +141,7 @@ const styles = {
   },
 
   textContainer: {
-    height: "300px",
+    // height: "300px",
     margin: "20px",
     // backgroundColor: "white",
     fontSize: "15px",
