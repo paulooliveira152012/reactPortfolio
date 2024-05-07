@@ -50,6 +50,10 @@
     width: 200%;
   }
 
+  .hero {
+    background-position-x: center;
+  }
+
   .heroLine {
     height: 200%;
   }
