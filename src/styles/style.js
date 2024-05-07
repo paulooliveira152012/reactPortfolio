@@ -118,7 +118,8 @@ const styles = {
     // textAlign: "center",
     backgroundImage: `url(${myPicture})`,
     backgroundSize: "cover",
-    backgroundPosition: "center -0%",
+    // backgroundPosition: "center -0%",
+    backgroundPosition: "80% center", // Adjust the horizontal position to push to the right
     flex: 1,
   },
 
