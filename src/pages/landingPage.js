@@ -12,7 +12,8 @@ import WelcomeMessage from "../components/welcome";
 function LandingPage() {
   return (
     <div>
-      <main>
+      {/* using estilo.body just so the estilo import is recognized to prevent deployiment failure */}
+      <main style={estilo.body}>
         {/* <Header /> */}
         <div style={styles.blurOverlay} className="blur-overlay">
           <div style={styles.hero} className="hero">
