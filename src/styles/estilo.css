@@ -23,10 +23,6 @@
     font-size: 20;
   }
 
-  .right {
-    /* background-color: blue; */
-  }
-
   .invisibleBadge {
     display: none;
   }
@@ -36,9 +32,7 @@
 
 /* Media query for screen sizes below or equal to 700px */
 @media screen and (max-width: 700px) {
-  body {
-    /* background-color: red; Example: A light gray color */
-  }
+  
 /* change hero container */
   .heroContainer {
     /* height: 200%; */
@@ -74,18 +68,8 @@
   }
 
   /* content section */
-  .contentMain {
-    /* background-color: red; */
-  }
-
   .horizontal {
     flex-direction: column;
-  }
-
-  .imageContainer {
-    /* display: inline-block; */
-    /* background-color: green; */
-    /* float: left; */
   }
 
 
@@ -97,6 +81,4 @@
     display: block;
     /* background-size: ; */
   }
-
-
 }
