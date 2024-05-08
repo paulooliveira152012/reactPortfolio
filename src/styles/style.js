@@ -145,7 +145,7 @@ const styles = {
 
   myPicture1: {
     backgroundImage: `url(${myPicture2})`,
-    backgroundSize: "120%",
+    backgroundSize: "140%",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
     height: "100%",
