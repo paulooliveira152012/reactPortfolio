@@ -262,13 +262,6 @@ const styles = {
   h2: {
     margin: "20px ",
   },
-
-  imageContainer: {
-    // backgroundImage: `url(${myPicture})`,
-    // width: "500px",
-    // height: "300px",
-    // backgroundSize: "cover",
-  }
   
 };
 
