@@ -1,6 +1,7 @@
 // style.js
 import myPicture from "../images/mypicture.jpeg";
 import myPicture1 from "../images/mypicture1.jpeg";
+import myPicture2 from "../images/mypicture2.jpeg"
 
 // font create and export font from google
 export const globalStyle = {
@@ -143,15 +144,13 @@ const styles = {
   },
 
   myPicture1: {
-    backgroundImage: `url(${myPicture1})`,
-    backgroundSize: "contain",
+    backgroundImage: `url(${myPicture2})`,
+    backgroundSize: "120%",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "center",
-    // width: "100%",
     height: "100%",
     width: "50%",
-    // margin: "auto"
-    marginTop: "20px"
+    // marginTop: "20px"
   },
 
   textContainer: {
