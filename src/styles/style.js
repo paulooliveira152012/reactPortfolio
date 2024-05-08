@@ -70,7 +70,7 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     // justifyContent: "center"
-    paddingTop: "2%",
+    // paddingTop: "2%",
     boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)", // Adds a subtle shadow for depth
   },
 
