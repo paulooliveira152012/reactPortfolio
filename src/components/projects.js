@@ -200,7 +200,7 @@ const Projects = () => {
           </a>
         </div>
 
-        <div style={styles.projectContainer}>
+        {/* <div style={styles.projectContainer}>
           <a href="" style={styles.aProjects}>
             <div className="imageContainer myImage"></div>
             <p style={styles.projectParagraph}>
@@ -208,7 +208,7 @@ const Projects = () => {
          
             </p>
           </a>
-        </div>
+        </div> */}
 
       </div>
     </div>
