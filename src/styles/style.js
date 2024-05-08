@@ -1,6 +1,6 @@
 // style.js
 import myPicture from "../images/mypicture.jpeg";
-import myPicture1 from "../images/mypicture1.jpeg";
+// import myPicture1 from "../images/mypicture1.jpeg";
 import myPicture2 from "../images/mypicture2.jpeg"
 
 // font create and export font from google
