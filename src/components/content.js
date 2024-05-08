@@ -6,6 +6,7 @@ import Badge from "./badge";
 const Content = () => {
   return (
     <div style={styles.main} className="contentMain">
+      <h2 style={styles.h2}>Know what I can do:</h2>
       <div style={styles.horizontal} className="horizontal">
         <div style={styles.left}>
           <div style={styles.textContainer}>
@@ -50,6 +51,7 @@ const Content = () => {
           </div>
         </div>
         <div style={styles.right}>
+          <h2 style={styles.h2}>Get to know me a little!</h2>
           <div style={styles.textContainer}>
             <p style={{ lineHeight: 2 }}>
               In addition to my development work, I have managed projects at

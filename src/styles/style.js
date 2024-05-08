@@ -19,30 +19,32 @@ const styles = {
     color: "red"
   },
 
-  container: {
-    padding: "20px",
-    margin: "0 auto",
-    maxWidth: "600px",
-    backgroundColor: "#f4f4f4",
-    borderRadius: "8px",
-    boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
-  },
-  header: {
-    display: "flex",
-    alignItems: "center",
-    fontSize: "24px",
-    backgroundColor: "#222831",
-    justifyContent: "space-between",
-    padding: "10px 50px",
-  },
-  title: {
-    fontFamily: "'Inconsolata', monospace", // Use Inconsolata for the title
-    fontSize: "36px", // Feel free to adjust the size according to your design
-    fontWeight: "bold", // Montserrat looks particularly good in bold for titles
-    color: "#EEEEEE", // This is a standard color, but customize as needed
-    textAlign: "center", // Centers the title, if that fits your layout
-    padding: "20px 0", // Gives some spacing around the title
-  },
+  // container: {
+  //   padding: "20px",
+  //   margin: "0 auto",
+  //   maxWidth: "600px",
+  //   backgroundColor: "#f4f4f4",
+  //   borderRadius: "8px",
+  //   boxShadow: "0 2px 4px rgba(0,0,0,0.1)",
+  // },
+
+  // header: {
+  //   display: "flex",
+  //   alignItems: "center",
+  //   fontSize: "24px",
+  //   backgroundColor: "#222831",
+  //   justifyContent: "space-between",
+  //   padding: "10px 50px",
+  // },
+
+  // title: {
+  //   fontFamily: "'Inconsolata', monospace", // Use Inconsolata for the title
+  //   fontSize: "36px", // Feel free to adjust the size according to your design
+  //   fontWeight: "bold", // Montserrat looks particularly good in bold for titles
+  //   color: "#EEEEEE", // This is a standard color, but customize as needed
+  //   textAlign: "center", // Centers the title, if that fits your layout
+  //   padding: "20px 0", // Gives some spacing around the title
+  // },
 
   paragraph: {
     fontSize: "16px",
@@ -57,11 +59,12 @@ const styles = {
     // padding: "50px",
     // backgroundColor: "#FEFAF6",
     // color: "white",
-    height: "100vh",
+    height: "auto",
   },
 
   projectContainer: {
     // backgroundColor: "#222831",
+    width: "100%",
     borderRadius: 10,
     margin: 20,
     display: "flex",
@@ -78,7 +81,7 @@ const styles = {
     // padding: "20px",
     // height: "auto",
     // backgroundColor: "red",
-    height: "300px",
+    height: "auto",
     borderRadius: 10
   },
 
@@ -257,8 +260,15 @@ const styles = {
   },
 
   h2: {
-    marginBottom: "20px",
+    margin: "20px ",
   },
+
+  imageContainer: {
+    // backgroundImage: `url(${myPicture})`,
+    // width: "500px",
+    // height: "300px",
+    // backgroundSize: "cover",
+  }
   
 };
 
