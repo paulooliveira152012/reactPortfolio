@@ -24,7 +24,7 @@ const Projects = () => {
             rel="noreferrer"
           >
             {/* <img src={gradsapp} alt="gradsapp" style={styles.projectImg}></img> */}
-            <div className="imageContainer gradsApp" style={styles.imageContainer}></div>
+            <div className="imageContainer gradsApp"></div>
             <div style={styles.projectParagraph}>
               <div>
                 <p>

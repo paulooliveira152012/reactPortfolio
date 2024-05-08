@@ -133,12 +133,6 @@ const styles = {
 
 
 
-  imageContainer: {
-    height: "300px",
-    margin: "20px",
-    // backgroundColor: "white",
-  },
-
   imageContainerBoth: {
     height: "300px",
     margin: "20px",
