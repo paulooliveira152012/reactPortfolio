@@ -2,6 +2,7 @@
 import React from "react";
 import Projects from "../components/projects";
 import Content from "../components/content";
+// import Logos from "../components/techlogos";
 import Footer from "../components/footer";
 import estilo from "../styles/estilo.css"; //this is being applied!
 import styles from "../styles/style";
@@ -41,6 +42,10 @@ function LandingPage() {
 
         <section>
           <Projects />
+        </section>
+
+        <section>
+          {/* <Logos /> */}
         </section>
 
         <section>

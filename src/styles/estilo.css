@@ -61,8 +61,57 @@
   .laUnionImg {
     background-image: url('../images/projectsScreenshot/launion.jpeg');
   }
-  
 
+  .logoContainer {
+    width: 50px;
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .html {
+    background-image: url('../images/techLogos/HTML5.png');
+  }
+
+  .css {
+    background-image: url('../images/techLogos/CSS.png');
+  }
+  
+  .js {
+    background-image: url('../images/techLogos/JS.png');
+  }
+
+  .bootstrap {
+    background-image: url('../images//techLogos/BOOTSTRAP.png') ;
+  }
+
+  .git {
+    background-image: url('../images/techLogos/git.png');
+  }
+
+  .ajax {
+    background-image: url('../images/techLogos/AJAX.png');
+  }
+
+  .express {
+    background-image: url('../images/techLogos/Expressjs.png');
+  }
+
+  .mongodb {
+    background-image: url('../images/techLogos/MongoDB_Logo.svg.png');
+  }
+
+  .mysql {
+    background-image: url('../images/techLogos/MySQL.png');
+  }
+
+  .node {
+    background-image: url('../images/techLogos/node.png');
+  }
 
 /* Media query for screen sizes below or equal to 700px */
 @media screen and (max-width: 700px) {

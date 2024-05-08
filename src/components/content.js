@@ -14,34 +14,25 @@ const Content = () => {
               As a full-stack developer with two years of experience, I have
               honed a broad skill set across web and mobile application
               development. My front-end capabilities include creating responsive
-              and dynamic interfaces with{" "}
-              <strong>HTML5, CSS, JavaScript, Bootstrap, and React</strong>,
-              while on the back-end, I am proficient in{" "}
-              <strong>Node.js, Express, and MongoDB</strong>. I am also
-              developing my mobile skills using <strong>React Native</strong> to
-              ensure seamless integration between front-end and back-end
-              operations. Additionally, I have experience with{" "}
-              <strong>
-                AJAX API Interactions, Git, MERN STACK (MongoDB, Express.js,
-                React.js, Node.js), MongoDB, MySQL, progressive Web Applications
-                (PWAs), and user Authentication
-              </strong>
-              .
+              and dynamic interfaces with HTML5, CSS, JavaScript, Bootstrap, and
+              React. On the back-end, I am proficient in Node.js, Express, and
+              MongoDB. I am also developing my mobile skills using React Native
+              to ensure seamless integration between front-end and back-end
+              operations. Additionally, I have experience with AJAX API
+              interactions, Git, MERN stack, MySQL, progressive web applications
+              (PWAs), and user authentication.
             </p>
           </div>
         </div>
 
         <div style={styles.right} className="right">
-
           <div style={styles.imageContainerBoth}>
             <div style={styles.myPicture1} className="myPicture1"></div>
             <div className="invisibleBadge">
               <Badge />
             </div>
           </div>
-
         </div>
-
       </div>
 
       <div style={styles.horizontal} className="horizontal">

@@ -219,6 +219,12 @@ const styles = {
     display: "flex",
   },
 
+  allLogos: {
+    display: "flex",
+    justifyContent: "space-evenly"
+  },
+
+
   //   footer
   footer: {
     height: "300px",
