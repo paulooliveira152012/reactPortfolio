@@ -190,5 +190,12 @@
     border-radius: 10px;
     /* background-position: center;  */
   }
+
+  .gradsApp {
+    background-size: 90%;
+  }
   
+  .laUnionImg {
+    background-size: 110%;
+  }
 }
