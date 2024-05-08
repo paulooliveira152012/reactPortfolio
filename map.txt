@@ -87,6 +87,6 @@ portfolios
 https://aditya.medhe.in/
 https://soheilasadeghian.github.io/#undefined
 
-width
-iphone 14 (about)
-365px
+technology logos
+https://en.m.wikipedia.org/wiki/File:HTML5_logo_and_wordmark.svg
+

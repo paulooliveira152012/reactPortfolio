@@ -158,11 +158,11 @@ const styles = {
     margin: "20px",
     // backgroundColor: "white",
     fontSize: "15px",
-    textAlign: "center",
-    display: "flex",
+    textAlign: "justify",
+    // display: "flex",
     flexDirection: "column",
-    height: "100%",
-    justifyContent: "space-evenly",
+    // height: "100%",
+    // justifyContent: "space-evenly",
   },
 
   textLeft: {
@@ -200,9 +200,6 @@ const styles = {
     position: "relative",
   },
 
-  main: {
-    // display: "flex"
-  },
 
   horizontal: {
     display: "flex",
@@ -227,7 +224,7 @@ const styles = {
     height: "300px",
     backgroundColor: "#222831",
     color: "#EEEEEE",
-    marginTop: "20px",
+    // marginTop: "20px",
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
