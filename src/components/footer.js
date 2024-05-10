@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "../styles/style";
+import resume from "../docs/myresume.pdf"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,
@@ -7,6 +8,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -63,6 +65,18 @@ const Footer = () => {
               >
                 <FontAwesomeIcon icon={faEnvelope} color="#EEEEEE" />
               </a>
+            </li>
+            <li>
+            <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={styles.a}
+              aria-label="Email"
+              download={resume}
+            >
+              <FontAwesomeIcon icon={faFile} color="#EEEEEE" />
+            </a>
             </li>
           </ul>
         </div>

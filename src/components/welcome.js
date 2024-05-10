@@ -8,7 +8,9 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
 // import estilo from "../styles/estilo.css"
+import resume from "../docs/myresume.pdf"
 
 const WelcomeMessage = () => {
   // State to control the text being displayed
@@ -85,6 +87,16 @@ const WelcomeMessage = () => {
               aria-label="Email"
             >
               <FontAwesomeIcon icon={faEnvelope} color="#EEEEEE" />
+            </a>
+            <a
+              href={resume}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={styles.a}
+              aria-label="Email"
+              download={resume}
+            >
+              <FontAwesomeIcon icon={faFile} color="#EEEEEE" />
             </a>
           </div>
         )}
