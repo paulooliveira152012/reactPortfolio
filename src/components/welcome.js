@@ -10,7 +10,7 @@ import {
 import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 // import estilo from "../styles/estilo.css"
-import resume from "../docs/myresume.pdf"
+import resume from "../docs/resumePaulo.pdf"
 
 const WelcomeMessage = () => {
   // State to control the text being displayed

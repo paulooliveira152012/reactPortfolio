@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../styles/style";
-import resume from "../docs/myresume.pdf"
+import resume from "../docs/resumePaulo.pdf"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faLinkedin,

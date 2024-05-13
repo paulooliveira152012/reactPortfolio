@@ -2,7 +2,7 @@
 
 import React from "react";
 import styles from "../styles/style";
-import resume from "../docs/resume.pdf";
+import resume from "../docs/resumePaulo";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
