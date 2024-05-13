@@ -62,6 +62,10 @@
     background-image: url('../images/projectsScreenshot/launion.jpeg');
   }
 
+  .weatherApp {
+    background-image: url('../images/projectsScreenshot/weather.png');
+  }
+
   .logoContainer {
     width: 50px;
     height: 100px;

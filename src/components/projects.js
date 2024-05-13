@@ -200,6 +200,26 @@ const Projects = () => {
           </a>
         </div>
 
+        <div style={styles.projectContainer}>
+          <a href="" style={styles.aProjects}>
+            <div className="imageContainer weatherApp"></div>
+            <div style={styles.projectParagraph}>
+              <div>
+                <p>
+                  <strong>
+                  Weather App
+                  </strong>
+                </p>
+                <br />
+                <p>
+                Weather Dashboard: A web application utilizing HTML, CSS, and JavaScript to fetch real-time weather data via the OpenWeatherMap API. Users can search cities, view climate information, revisit searches, and manage a history of previous queries.
+                </p>
+                <br />
+              </div>
+            </div>
+          </a>
+        </div>
+
         {/* <div style={styles.projectContainer}>
           <a href="" style={styles.aProjects}>
             <div className="imageContainer myImage"></div>
