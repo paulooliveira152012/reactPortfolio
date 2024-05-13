@@ -1,19 +1,18 @@
 import React from "react";
-  // import projectImagePlaceholder from "../images/projectPlaceholder.jpeg";
+// import projectImagePlaceholder from "../images/projectPlaceholder.jpeg";
 import styles from "../styles/style";
 // import images
-  // import gradsapp from "../images/projectsScreenshot/gradsapp.png";
-  // import gradsweb from "../images/projectsScreenshot/gradsweb.png";
-  // import launion from "../images/projectsScreenshot/launion.jpeg";
+// import gradsapp from "../images/projectsScreenshot/gradsapp.png";
+// import gradsweb from "../images/projectsScreenshot/gradsweb.png";
+// import launion from "../images/projectsScreenshot/launion.jpeg";
 // link estilos
-import estilo from "../styles/estilo.css"
+import estilo from "../styles/estilo.css";
 
 const Projects = () => {
   return (
     <div style={estilo}>
       <h2 style={styles.h2}>Projects:</h2>
       <div className="projectsContainer" style={styles.projectsContainer}>
-
         {/* container to use 100 vh */}
         <div style={styles.projectContainer} className="projectContainer">
           {/* grads app */}
@@ -33,8 +32,8 @@ const Projects = () => {
                 <br />
                 <p>
                   Grads is a cross-platform app built with React Native for both
-                  iOS and Android. It fosters a student-focused community through
-                  networking, resource sharing, and collaboration.
+                  iOS and Android. It fosters a student-focused community
+                  through networking, resource sharing, and collaboration.
                 </p>
                 <br />
                 {/* <p>
@@ -92,7 +91,7 @@ const Projects = () => {
         </div>
 
         {/* grads website */}
-        <div style={styles.projectContainer}  className="projectContainer">
+        <div style={styles.projectContainer} className="projectContainer">
           <a
             href="https://paulooliveira152012.github.io/grads/"
             target="_blank"
@@ -110,7 +109,10 @@ const Projects = () => {
                 </p>
                 <br />
                 <p>
-                The Grads app website promotes the app and encourages students to join the community. Built with HTML, CSS, JavaScript, and Bootstrap, it showcases the app's features and invites engagement.
+                  The Grads app website promotes the app and encourages students
+                  to join the community. Built with HTML, CSS, JavaScript, and
+                  Bootstrap, it showcases the app's features and invites
+                  engagement.
                 </p>
                 <br />
                 {/* <ul>
@@ -145,9 +147,9 @@ const Projects = () => {
             </div>
           </a>
         </div>
-           {/* La Union*/}
-           <div style={styles.projectContainer} className="projectContainer">
-           <a
+        {/* La Union*/}
+        <div style={styles.projectContainer} className="projectContainer">
+          <a
             href="https://paulooliveira152012.github.io/launiontireinc/"
             target="_blank"
             rel="noreferrer"
@@ -158,13 +160,14 @@ const Projects = () => {
             <div style={styles.projectParagraph}>
               <div>
                 <p>
-                  <strong>
-                  La Union Tire Inc.
-                  </strong>
+                  <strong>La Union Tire Inc.</strong>
                 </p>
                 <br />
                 <p>
-                La Union Tire Inc. is a tire shop with a landing page built using HTML, JavaScript, and CSS. It provides essential information about services and invites visitors to explore further.
+                  La Union Tire Inc. is a tire shop with a landing page built
+                  using HTML, JavaScript, and CSS. It provides essential
+                  information about services and invites visitors to explore
+                  further.
                 </p>
                 <br />
                 {/* <ul>
@@ -201,18 +204,25 @@ const Projects = () => {
         </div>
 
         <div style={styles.projectContainer}>
-          <a href="" style={styles.aProjects}>
+          <a
+            href="https://paulooliveira152012.github.io/weather/"
+            target="_blank"
+            rel="noreferrer"
+            style={styles.aProjects}
+          >
             <div className="imageContainer weatherApp"></div>
             <div style={styles.projectParagraph}>
               <div>
                 <p>
-                  <strong>
-                  Weather App
-                  </strong>
+                  <strong>Weather App</strong>
                 </p>
                 <br />
                 <p>
-                Weather Dashboard: A web application utilizing HTML, CSS, and JavaScript to fetch real-time weather data via the OpenWeatherMap API. Users can search cities, view climate information, revisit searches, and manage a history of previous queries.
+                  Weather Dashboard: A web application utilizing HTML, CSS, and
+                  JavaScript to fetch real-time weather data via the
+                  OpenWeatherMap API. Users can search cities, view climate
+                  information, revisit searches, and manage a history of
+                  previous queries.
                 </p>
                 <br />
               </div>
@@ -229,7 +239,6 @@ const Projects = () => {
             </p>
           </a>
         </div> */}
-
       </div>
     </div>
   );
